@@ -4,7 +4,8 @@ const userspostId = async (props) =>{
     
     return(
          <h1>
-         id =    {data.postId}
+          user : {data.usernames}  ,   
+         id : {data.postId}
          </h1>
     )
 }

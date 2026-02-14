@@ -1,5 +1,7 @@
-const users = async (props) =>{
-    const data = await props.params;
+"use client"
+import { use } from "react";
+const users =  (props) =>{
+    const data =use(props.params);
     console.log(data);
     
     return(
